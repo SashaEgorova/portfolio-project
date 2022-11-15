@@ -13,7 +13,7 @@ h3 {
 }
 
 h1 {
-  font-size: 86px;
+  font-size: 76px;
 }
 h2 {
   font-size: 54px;
@@ -43,6 +43,28 @@ p {
   color: var(--secondary-color);
 }
 
+.about-hero h1 {
+  font-size: 55px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
+
+.about-hero img {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 30px;
+  margin-top: 90px;
+}
+
+.about-hero-content {
+  padding: 140px 20px;
+}
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
@@ -74,6 +96,7 @@ p {
   h2 {
     font-size: 44px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -82,5 +105,17 @@ p {
     background-color: #faf7ff;
     text-align: center;
     padding: 80px 20px;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
+  }
+  .about-hero img {
+    max-width: 350px;
+    margin-top: 0;
+  }
+  .about-hero-content {
+    padding: 60px 20px;
   }
 }
