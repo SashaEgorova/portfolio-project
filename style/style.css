@@ -109,7 +109,7 @@ footer {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 20px 60px;
 }
 .contact-box {
   background-color: var(--tertiary-color);
@@ -117,6 +117,28 @@ footer {
   text-align: center;
   margin: 50px 20px;
   border-radius: 5px;
+}
+.react-logo {
+  font-size: 150px;
+  color: #03d1f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cv {
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 700px;
+}
+
+.weather {
+  margin-top: 150px;
+}
+
+.weather-link {
+  display: flex;
+  justify-content: center;
 }
 
 footer .email-link {
@@ -181,5 +203,18 @@ footer .social-links a:hover {
   .contact-box a {
     padding: 10px 20px;
     font-size: 15px;
+  }
+
+  .img-hero {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+  .content {
+    padding: 20px 30px;
+  }
+  .cv {
+    max-width: 500px;
+    margin-top: 20px;
   }
 }
